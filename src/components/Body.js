@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import userContext from "../utils/userContext";
 import React, { useContext } from "react";
-import { EnhancedRestaurants } from "../components/RestaurantCards"
+import { EnhancedRestaurants } from "../components/RestaurantCards";
 const Body = ({ restaurants }) => {
   const { logginUser, setUserName } = useContext(userContext);
 
